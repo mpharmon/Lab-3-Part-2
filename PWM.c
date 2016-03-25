@@ -51,7 +51,7 @@ void PWM_Init(){
 }
 
 void PWM_SetOC1DutyCycle(float newDutyCycle){
-  if(newDutyCycle > 100){
+  if(newDutyCycle >= 100){
     OC1RS = 10230;
   }else{
     OC1RS = floor(newDutyCycle * 102.3);
@@ -59,6 +59,7 @@ void PWM_SetOC1DutyCycle(float newDutyCycle){
 }
 
 void PWM_SetOC2DutyCycle(float newDutyCycle){
+  //OC2RS = newDutyCycle;
   if(newDutyCycle >= 100){
     OC2RS = 10230;
   }else{
