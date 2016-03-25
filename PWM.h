@@ -3,7 +3,7 @@
  * 
  *  Group: 209
  *
- *  Lab: 3 Part 1
+ *  Lab: 3 Part 2
  * 
  *  File: PWM.h
  * 

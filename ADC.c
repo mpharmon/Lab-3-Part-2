@@ -3,7 +3,7 @@
  * 
  *  Group: 209
  *
- *  Lab: 1 Part 3
+ *  Lab: 3 Part 2
  * 
  *  File: ADC.c
  * 
